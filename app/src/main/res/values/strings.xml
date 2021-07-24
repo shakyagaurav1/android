@@ -4,5 +4,14 @@
     <string name="frame_Layout">Frame Layout</string>
     <string name="Table_Layout">Table Layout</string>
     <string name="Relative_Layout">Relative Layout</string>
+    <string name="Card_View_Spinner">Card View Spinner</string>
+    <string name="Recycler_view">Recycler View</string>
+    <string-array name="random_names">
+        <item>Zelda</item>
+        <item>Senku</item>
+        <item>Edward</item>
+        <item>Mario</item>
+        <item>Lovecraft</item>
+    </string-array>
 
 </resources>

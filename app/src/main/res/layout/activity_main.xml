@@ -20,9 +20,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="168dp"
         android:layout_marginEnd="185dp"
+        android:fontFamily="sans-serif-black"
         android:text="Android workshop"
         android:textSize="40dp"
-        android:fontFamily="sans-serif-black"
         app:layout_constraintBottom_toTopOf="@+id/guideline4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,10 +35,10 @@
         android:text="@string/linear_Layout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.463"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline4"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.115" />
 
     <Button
         android:id="@+id/relativeLayoutbutton"
@@ -47,10 +47,9 @@
         android:text="@string/Relative_Layout"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/LinearLayoutbutton"
-        app:layout_constraintVertical_bias="0.155" />
+        app:layout_constraintVertical_bias="0.098" />
 
     <Button
         android:id="@+id/listbutton"
@@ -59,9 +58,33 @@
         android:text="list"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/relativeLayoutbutton"
-        app:layout_constraintVertical_bias="0.22" />
+        app:layout_constraintVertical_bias="0.154" />
+
+    <Button
+        android:id="@+id/cardViewSpinnerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Card_View_Spinner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listbutton"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <Button
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Recycler_view"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.767" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

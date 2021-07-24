@@ -18,6 +18,9 @@ import android.widget.Button;
             Button linearLayout = findViewById(R.id.LinearLayoutbutton);
             Button relativeLayout = findViewById(R.id.relativeLayoutbutton);
             Button listView = findViewById(R.id.listbutton);
+            Button cardviewspinner  = findViewById(R.id.cardViewSpinnerButton);
+            Button recycleview  = findViewById(R.id.recyclerView);
+
 
 
             linearLayout.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +43,22 @@ import android.widget.Button;
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, ListView.class);
+                    startActivity(intent);
+                }
+            });
+
+            cardviewspinner.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this,CardViewSpinner.class);
+                    startActivity(intent);
+                }
+            });
+
+            recycleview.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this, RecyclerView.class);
                     startActivity(intent);
                 }
             });
