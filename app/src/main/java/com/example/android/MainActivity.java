@@ -20,6 +20,7 @@ import android.widget.Button;
             Button listView = findViewById(R.id.listbutton);
             Button cardviewspinner  = findViewById(R.id.cardViewSpinnerButton);
             Button recycleview  = findViewById(R.id.recyclerView);
+            Button book  = findViewById(R.id.book);
 
 
 
@@ -50,7 +51,7 @@ import android.widget.Button;
             cardviewspinner.setOnClickListener(new View.OnClickListener(){
                 @Override
                 public void onClick(View v) {
-                    Intent intent = new Intent(MainActivity.this,CardViewSpinner.class);
+                    Intent intent = new Intent(MainActivity.this,cardviewspinner.class);
                     startActivity(intent);
                 }
             });
@@ -59,6 +60,14 @@ import android.widget.Button;
                 @Override
                 public void onClick(View v) {
                     Intent intent = new Intent(MainActivity.this, RecyclerView.class);
+                    startActivity(intent);
+                }
+            });
+
+            cardviewspinner.setOnClickListener(new View.OnClickListener(){
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(MainActivity.this,Book.class);
                     startActivity(intent);
                 }
             });
