@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">android</string>
+    <string name="frame_layout">frame layout</string>
 </resources>
